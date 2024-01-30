@@ -24,12 +24,11 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_caps_lock {
-            timeout-ms = <50>;
-            key-positions = <11 23>;
-            bindings = <&kp CAPS>;
-            layers = <1>;
-        };
+        COMBO(bt_clear, &bt BT_CLR, 24 35, 0)
+        COMBO(bt_1, &bt BT_SEL_0, 0 11, 1)
+        COMBO(bt_2, &bt BT_SEL_1, 12 23, 1)
+        COMBO(bt_3, &bt BT_SEL_2, 24 35, 1)
+        COMBO(caps_lock, &kp CAPS, 11 13, 1)
     };
 
     keymap {
