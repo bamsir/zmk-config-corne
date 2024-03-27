@@ -14,12 +14,10 @@
         };
         slt: spacebar_layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "SPACE_LAYER_TAP";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <125>;
-            global-quick-tap;
+            flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         }; 
     };
