@@ -42,7 +42,7 @@
                 &kp EQUAL &kp Q      &kp W &kp E      &kp R       &kp T     /**/     &kp Y &kp U       &kp I      &kp O   &kp P         &kp SQT
                 &kp MINUS &hm LALT A &kp S &hm LGUI D &hm LCTRL F &kp G     /**/     &kp H &hm RCTRL J &hm RGUI K &kp L   &hm RALT SEMI &kp RET
                 &kp LBKT  &kp Z      &kp X &kp C      &kp V       &kp B     /**/     &kp N &kp M       &kp COMMA  &kp DOT &kp FSLH      &kp RBKT
-                                       &hm LSHFT TAB  &mo 2  &slt SPACE 1   /**/   &kp RSHFT  &mo 1  &kp BSPC
+                                       &hm LSHFT TAB  &mo 2  &slt 1 SPACE   /**/   &kp RSHFT  &mo 1  &kp BSPC
             >;
         };
 
